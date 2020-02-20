@@ -5,6 +5,7 @@ from exchangelib import DELEGATE, Account, Credentials, Configuration, Folder
 import time
 ## Let's calculate how much clock penalty would this script take - it's a script \
 ## and as such I don't have high hopes as compared to the compiled ones. ~JumpThere
+## Ideally this can be skipped.
 start_timer = time.time()
 creds = Credentials(
     username="domain\user",
