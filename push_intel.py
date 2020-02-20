@@ -29,8 +29,8 @@ account.inbox.refresh()
 
 #for item in account.inbox.all().order_by('-datetime_received')[:5]:
 # print item.attachments
-#jason.walk()
-#### below this would walk the content within the Jason ##
+#var.walk()
+#### below this would walk the content within the given fol structure ##
 #my_folder = account.inbox / 'PullThisFolder'
 #for test in my_folder.all():
 # print(test.attachments)
